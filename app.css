@@ -20,7 +20,7 @@ h3 {
   font-size: 40px;
 }
 
-p, a {
+p, a, .small-text {
   font-weight: 400;
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
@@ -38,4 +38,8 @@ a {
 
 ul {
   list-style: none;
+}
+
+.small-text {
+  font-size: 12px;
 }
