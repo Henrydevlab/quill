@@ -1,3 +1,5 @@
+/* -------------- GLOBAL STYLES -------------- */
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -42,6 +44,8 @@ ul {
   font-size: 12px;
 }
 
+/* -------------- COMPONENTS -------------- */
+
 .btn {
   font-weight: 400;
   font-size: 16px;
@@ -64,18 +68,29 @@ ul {
   color: #7048e8;
 }
 
+/* -------------- SECTIONS -------------- */
+
+/* ------- HERO SECTION ------- */
+
 .hero-section {
   text-align: center;
 }
+
+/* ------- FEATURES SECTION ------- */
+
+.features-main-heading {
+  text-align: center;
+}
+
+/* ------- CTA SECTION ------- */
 
 .cta-section {
   text-align: center;
 }
 
+/* ------- FOOTER ------- */
+
 .footer {
   text-align: center;
 }
 
-.features-main-heading {
-  text-align: center;
-}
