@@ -64,3 +64,15 @@ ul {
 .btn-secondary:hover, .btn-secondary:active {
   color: #7048e8;
 }
+
+.hero-section {
+  text-align: center;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
