@@ -74,6 +74,14 @@ ul {
   background-color: #7048e8;
 }
 
+logo-md {
+  width: 100px;
+}
+
+logo-sm {
+  width: 80px;
+}
+
 /* -------------- SECTIONS -------------- */
 
 /* ------- HERO SECTION ------- */
