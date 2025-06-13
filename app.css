@@ -161,6 +161,10 @@ ul {
   border-radius: 20px;
 }
 
+.cta-heading {
+  margin-bottom: 30px;
+}
+
 /* ------- FOOTER ------- */
 
 .footer {
