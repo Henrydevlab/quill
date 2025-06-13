@@ -1,6 +1,8 @@
 /* -------------- GLOBAL STYLES -------------- */
 
-/* Add in universal selector later to remove default spacing properties */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Poppins", sans-serif;
