@@ -42,7 +42,7 @@
   --black: #000000;   
 
   /* MISCELLANEOUS */
-  --nav-height: 300px; /* Update the value using flexbox later */
+  --nav-height: 100px;
 }
 
 * {
@@ -169,6 +169,11 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-btn-container {
+  display: flex;
+  gap: 2rem;
 }
 
 /* ------- HERO SECTION ------- */
