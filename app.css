@@ -168,6 +168,7 @@ ul {
   height: var(--nav-height);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* ------- HERO SECTION ------- */
@@ -231,6 +232,7 @@ ul {
 .footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .social-icons {
