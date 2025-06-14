@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -27,25 +31,25 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 6.2rem;
 }
 
 h2 {
   text-align: center;
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   display: inline-block;
 }
 
@@ -54,16 +58,16 @@ ul {
 }
 
 .small-text {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 /* -------------- COMPONENTS -------------- */
 
 .btn {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
   border-radius: 8px;
 }
 
@@ -116,37 +120,37 @@ ul {
 /* ------- NAVBAR ------- */
 
 .navbar {
-  margin-bottom: 200px;
+  margin-bottom: 20rem;
 }
 
 /* ------- HERO SECTION ------- */
 
 .hero-section {
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .hero-heading {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .hero-paragraph {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 /* ------- FEATURES SECTION ------- */
 
 .features-section {
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .features-main-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 
 .feature-headings {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .feature-img {
@@ -158,19 +162,19 @@ ul {
 
 .cta-section {
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .cta-card {
   background-color: #339af0;
   max-width: 1000px;
-  padding: 100px 20px;
+  padding: 10rem 20rem;
   border-radius: 20px;
   margin: 0 auto;
 }
 
 .cta-heading {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 /* ------- FOOTER ------- */
