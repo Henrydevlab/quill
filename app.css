@@ -40,6 +40,9 @@
   --grey-shade: #212529;
   --white: #ffffff;
   --black: #000000;   
+
+  /* MISCELLANEOUS */
+  --nav-height: 300px; /* Update the value using flexbox later */
 }
 
 * {
@@ -159,24 +162,19 @@ ul {
 
 /* -------------- SECTIONS -------------- */
 
-/* ------- HEADER ------- */
-
-.header {
-  height: 100vh;
-  min-height: 800px;
-}
-
 /* ------- NAVBAR ------- */
 
 .navbar {
-  margin-bottom: 20rem;
+  height: var(--nav-height);
 }
 
 /* ------- HERO SECTION ------- */
 
 .hero-section {
+  height: calc(100vh - var(--nav-height));
+  min-height: 400px;
   text-align: center;
-  margin-bottom: 30rem;
+  margin-bottom: 10rem;
 }
 
 .hero-heading {
