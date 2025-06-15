@@ -216,6 +216,8 @@ ul {
 .features-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  row-gap: 15rem;
+  column-gap: 5rem;
 }
 
 .feature-headings {
