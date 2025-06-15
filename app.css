@@ -197,6 +197,11 @@ ul {
   margin-bottom: 5rem;
 }
 
+.hero-btn-container {
+  display: flex;
+  gap: 2rem;
+}
+
 /* ------- FEATURES SECTION ------- */
 
 .features-section {
