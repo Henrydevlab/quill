@@ -224,17 +224,18 @@ ul {
 
 /* ------- CTA SECTION ------- */
 
-.cta-section {
-  text-align: center;
+.cta-section {  
   margin-bottom: 30rem;
+  display: flex;
+  justify-content: center;
 }
 
 .cta-card {
+  text-align: center;
   background-color: var(--primary-base);
   max-width: 1000px;
   padding: 10rem 20rem;
   border-radius: 20px;
-  margin: 0 auto;
 }
 
 .cta-heading {
