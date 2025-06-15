@@ -222,6 +222,11 @@ ul {
   align-items: center;
 }
 
+.feature-img-swap-order {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
 .feature-headings {
   margin-bottom: 2rem;
 }
