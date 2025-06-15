@@ -234,6 +234,7 @@ ul {
   text-align: center;
   background-color: var(--primary-base);
   max-width: 1000px;
+  width: 100%;
   padding: 10rem 20rem;
   border-radius: 20px;
 }
