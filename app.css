@@ -124,6 +124,7 @@ ul {
   color: var(--white);
   background-color: var(--primary-base);
   border: 2px solid var(--primary-base);
+  transition: 0.5s;
 }
 
 .btn-primary:hover, .btn-primary:active {
@@ -138,6 +139,7 @@ ul {
   color: var(--primary-base);
   background-color: var(--white);
   border: 2px solid var(--primary-base);
+  transition: 0.5s;
 }
 
 .btn-primary-outline:hover, .btn-primary-outline:active {
@@ -152,6 +154,7 @@ ul {
   color: var(--white);
   background-color: var(--secondary-base);
   border: 2px solid var(--secondary-base);
+  transition: 0.5s;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
