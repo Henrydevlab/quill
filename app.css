@@ -130,6 +130,7 @@ ul {
   color: var(--white);
   background-color: var(--primary-shade);
   border: 2px solid var(--primary-shade);
+  transform: scale(1.05, 1.05);
 }
 
 .btn-primary-outline:link, .btn-primary-outline:visited {
@@ -142,6 +143,7 @@ ul {
   color: var(--primary-shade);
   background-color: var(--white);
   border: 2px solid var(--primary-shade);
+  transform: scale(1.05, 1.05);
 }
 
 .btn-secondary:link, .btn-secondary:visited {
@@ -154,6 +156,7 @@ ul {
   color: var(--white);
   background-color: var(--secondary-shade);
   border: 2px solid var(--secondary-shade);
+  transform: scale(1.05, 1.05);
 }
 
 .logo-md {
@@ -182,7 +185,7 @@ ul {
   height: 5rem;
 }
 
-.modal {
+/* .modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -194,7 +197,7 @@ ul {
   align-items: center;
   justify-content: center;
   z-index: 999;
-}
+} */
 
 /* -------------- SECTIONS -------------- */
 
