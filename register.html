@@ -4,8 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
+  <!-- Ionicons for icons (still purely for visual presentation) -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./css/register.css">
 </head>
 <body>
-  <h1>Register</h1>
+    <div class="form-container">
+        <div class="logo">
+            <ion-icon name="person-add"></ion-icon> <!-- Add person icon for registration -->
+        </div>
+        <h2>Register</h2>
+        <!-- No JavaScript for submission, pure HTML form -->
+        <form action="#" method="POST"> <!-- action="#" for demonstration, replace with actual endpoint -->
+            <div class="input-group">
+                <label for="name">Name</label>
+                <ion-icon name="person"></ion-icon>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <ion-icon name="mail"></ion-icon>
+                <input type="email" id="email" name="email" placeholder="your@example.com" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <ion-icon name="lock-closed"></ion-icon>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+            <button type="submit">Register</button>
+            <div class="link-text">
+                Already have an account? <a href="login.html">Login here</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

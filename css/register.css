@@ -1,0 +1,133 @@
+/* Import the font family from styleguide.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Global styles based on styleguide.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f3f5; /* Pebble from Grey Tint */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px; /* Spacing system */
+  box-sizing: border-box;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 40px; /* Spacing system */
+  border-radius: 20px; /* Border radius from styleguide */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 25px; /* Spacing system */
+}
+
+.logo ion-icon {
+  font-size: 62px; /* Font size from styleguide (large icon) */
+  color: #339af0; /* Sky Blue from Primary Base - Consistent */
+}
+
+h2 {
+  font-size: 32px; /* Font size from styleguide */
+  color: #212529; /* Graphite from Grey Shade */
+  margin-bottom: 30px; /* Spacing system */
+  font-weight: 700; /* Font weight from styleguide */
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 25px; /* Spacing system */
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px; /* Spacing system */
+  font-size: 16px; /* Font size from styleguide */
+  color: #495057; /* Slate from Grey Base */
+  font-weight: 400; /* Font weight from styleguide */
+}
+
+.input-group input {
+  width: calc(100% - 20px); /* Adjust for padding */
+  padding: 12px 10px 12px 40px; /* Spacing for icon */
+  border: 1px solid #d0ebff; /* Arctic from Primary Tint - Consistent */
+  border-radius: 8px; /* Border radius from styleguide */
+  font-size: 16px; /* Font size from styleguide */
+  color: #212529;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #1c7ed6; /* Deep Sea from Primary Shade - Consistent */
+}
+
+.input-group ion-icon {
+  position: absolute;
+  left: 10px; /* Icon positioning */
+  top: 40px; /* Adjust based on label and input height */
+  color: #339af0; /* Sky Blue from Primary Base - Consistent */
+  font-size: 20px; /* Font size from styleguide */
+}
+
+button {
+  width: 100%;
+  padding: 15px; /* Spacing system */
+  background-color: #339af0; /* Sky Blue from Primary Base - Consistent */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px; /* Border radius from styleguide */
+  font-size: 20px; /* Font size from styleguide */
+  font-weight: 700; /* Font weight from styleguide */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Spacing system */
+}
+
+button:hover {
+  background-color: #1c7ed6; /* Deep Sea from Primary Shade - Consistent */
+}
+
+.link-text {
+  margin-top: 20px; /* Spacing system */
+  font-size: 16px; /* Font size from styleguide */
+  color: #495057; /* Slate from Grey Base */
+}
+
+.link-text a {
+  color: #339af0; /* Sky Blue from Primary Base - Consistent */
+  text-decoration: none;
+  font-weight: 700; /* Font weight from styleguide */
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .form-container {
+      padding: 25px; /* Spacing system */
+  }
+
+  h2 {
+      font-size: 24px; /* Font size from styleguide */
+  }
+
+  .logo ion-icon {
+      font-size: 48px; /* Font size from styleguide */
+  }
+
+  .input-group input,
+  button {
+      font-size: 16px; /* Font size from styleguide */
+  }
+}
