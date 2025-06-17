@@ -110,6 +110,15 @@ ul {
   font-size: var(--text-sm);
 }
 
+.text-gradient {
+  color:  #9775fa;
+  background-image: -webkit-linear-gradient(45deg,  #9775fa, #ff33b4, #ff7e29);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 /* -------------- COMPONENTS -------------- */
 
 .btn {
