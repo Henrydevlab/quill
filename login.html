@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Ionicons for icons (still purely for visual presentation) -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-  <h1>Login</h1>
+    <div class="form-container">
+        <div class="logo">
+            <ion-icon name="lock-closed"></ion-icon> <!-- Lock icon for login -->
+        </div>
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <ion-icon name="mail"></ion-icon>
+                <input type="email" id="email" name="email" placeholder="your@example.com" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <ion-icon name="lock-open"></ion-icon>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+            <button type="submit">Login</button>
+            <div class="link-text">
+                Don't have an account? <a href="register.html">Register here</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
