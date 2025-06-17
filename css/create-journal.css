@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.logo { margin-bottom: 25px; }
+.logo ion-icon {
+    font-size: 62px;
+    color: #339af0;
+}
+
+h1 {
+    font-size: 32px;
+    color: #212529;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #495057;
+    font-weight: 400;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: calc(100% - 20px);
+    padding: 12px 10px 12px 40px;
+    border: 1px solid #d0ebff;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #212529;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.input-group textarea {
+    min-height: 100px;
+    padding-top: 12px;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #1c7ed6;
+}
+
+.input-group ion-icon {
+    position: absolute;
+    left: 10px;
+    top: 40px; /* Reverted from 50% with transform */
+    color: #339af0;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.input-group.select-group::after {
+    content: '\25BC';
+    position: absolute;
+    right: 15px;
+    top: 40px; /* Reverted from 50% with transform */
+    font-size: 16px;
+    color: #339af0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #339af0;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover { background-color: #1c7ed6; }
+
+@media (max-width: 480px) {
+    .form-container { padding: 25px; }
+    h1 { font-size: 24px; }
+    .logo ion-icon { font-size: 48px; }
+    .input-group input,
+    .input-group select,
+    .input-group textarea,
+    button {
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .input-group ion-icon {
+        font-size: 18px;
+        left: 8px;
+    }
+    .input-group.select-group::after { right: 10px; }
+}
